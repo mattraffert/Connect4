@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Four</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Connect Four</h1>
+    <div>
+        <h2 id="winner">Please enter your names</h2>
+    </div>
+    <div id="P1">
+        <input id="Name1" type="text" placeholder="Player 1.." name="Name">
+        <button id="Button1" type="submit">Enter</button>
+        <h3 id="NameCard1">Player Red</h3>
+    </div>
+    <div id="P2">
+        <input id="Name2" type="text" placeholder="Player 2.." name="Name">
+        <button id="Button2" type="submit">Enter</button>
+        <h3 id="NameCard2">Player Yellow</h3>
+    </div>
+    <div>
+        <button id="Start" type="submit">Start Connect Four Game</button>
+    </div>
+    <button id="Restart" type="submit">Start New Connect Four Game</button>
+    <div id="board"></div>
+    <script src="app.js"></script>
+</body>
+</html>
